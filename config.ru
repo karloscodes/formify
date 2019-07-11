@@ -1,3 +1,5 @@
-require File.expand_path('app/app', File.dirname(__FILE__))
+# frozen_string_literal: true
 
-run App
+require File.expand_path("config/environment", __dir__)
+
+run FormifyWeb::API.freeze.app

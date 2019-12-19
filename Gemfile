@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 ruby "2.6.3"
-gem "rack", "~> 2.0.7"
+gem "rack", "~> 2.0.8"
 gem "rake", "~> 12.3.2"
 gem "roda"
 group :development, :test do
